@@ -1,8 +1,21 @@
+.root{
+    font-family: 'New Tegomin', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik Iso', cursive;
+font-family: 'Train One', cursive;
+}
 body {
     background-color: #67595E;
 }
 h1{
     color: red;
     text-align: center;
-    
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
 }
