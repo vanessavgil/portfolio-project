@@ -79,22 +79,34 @@ line-height: 27px;
     padding: 160px 20px;
     text-align: left;
 }
-.content-container h1 {
+
+.content {
+    margin: 30px;
+    text-align: left;
+}
+.content h1 {
     font-size: 64px;
     line-height: 80px;
     text-align: left;
 
 }
-.content-container h2 {
+.content h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
     text-align: left;
 
 }
 
-.content{
-    margin: 30px;
-    text-align: left;
+.content h3{
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    line-height: 2;
+    margin: 20px 0 0;
+}
+
+.content p{
+    font-size: 14px;
+    margin: 0;
 }
 
 .img-fluid {
@@ -121,7 +133,7 @@ line-height: 27px;
         padding: 0px;
         text-align: center;
     }
-    .about-section {
+    .content {
         padding: 0px;
         text-align: center;
     }
