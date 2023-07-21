@@ -101,6 +101,11 @@ line-height: 27px;
     border-radius: 20px;
 }
 
+.hero-bottom{
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+}
 @media (max-width: 960px){
     .hero{
         padding: 80px 20px;
