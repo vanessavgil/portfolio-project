@@ -27,7 +27,7 @@ body {
 .hero h2{
     font-family: var(--default-font-family);
     font-weight: normal;
-    line-height: 2;
+    line-height: 1.4;
     font-size: 24px;
     
 }
@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
     font-size: 96px;
+    line-height: 1.5;
 }
 
 h2{
@@ -68,4 +69,25 @@ line-height: 27px;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+
+.project-description {
+    padding: 0 30px;
+}
+
+@media (max-width: 960px){
+    .hero{
+        padding: 80px 20px;
+    }
+    h1{
+        font-size: 44px;
+        line-height: 2;
+    }
+    h2{
+        font-size: 44px;
+    }
+    .project-description{
+        padding: 0px;
+        text-align: center;
+    }
 }
