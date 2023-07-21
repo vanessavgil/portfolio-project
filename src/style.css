@@ -75,6 +75,20 @@ line-height: 27px;
     padding: 0 30px;
 }
 
+.about-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+
+}
+.about-section p {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
+.img-fluid {
+    border-radius: 20px;
+}
+
 @media (max-width: 960px){
     .hero{
         padding: 80px 20px;
