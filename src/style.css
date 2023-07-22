@@ -157,6 +157,23 @@ nav li.active a {
     color: var(--branding-color);
 }
 
+.email-link{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+footer .email-link {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+
+footer .email-link: hover{
+    color: var(--branding-color);
+}
 @media (max-width: 960px){
     .hero{
         padding: 80px 20px;
