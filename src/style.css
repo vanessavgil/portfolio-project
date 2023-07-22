@@ -14,7 +14,7 @@ body {
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 
 .hero p{
@@ -48,7 +48,7 @@ h2{
     font-size: 64px;
 }
 
-h4 {
+h3 {
     font-size: 48px;
 }
 p{
@@ -59,9 +59,9 @@ p{
 }
 
 .btn-branding {
- background-color: var(--branding-color); 
- color: white;  
-    border-radius: 4px;
+background-color: var(--branding-color); 
+color: white;  
+border-radius: 4px;
 padding: 16px 30px;
 font-size: 18px;
 line-height: 27px;
@@ -81,7 +81,7 @@ line-height: 27px;
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 60px 20px;
     text-align: left;
 }
 
@@ -148,8 +148,6 @@ nav li{
     margin-left: 16px;
 }
 
-
-
 nav a{
     text-decoration: none;
     color: #272142;
@@ -159,6 +157,14 @@ nav a{
 nav a:hover,
 nav li.active a {
     color: var(--branding-color);
+}
+
+.contact-links {
+    color: var(--branding-color);
+}
+
+.contact-links:hover{
+    color: #000;
 }
 
 .email-link{
@@ -188,7 +194,7 @@ footer .email-link {
     font-size: 24px;
 }
 
-footer .email-link: hover{
+footer .email-link:hover{
     color: var(--branding-color);
 }
 
@@ -218,7 +224,7 @@ footer .social-links a:hover{
         font-size: 44px;
     }
 
-    h4 {
+    h3 {
         font-size: 26px;
     }
     .project-description{
@@ -235,7 +241,4 @@ footer .social-links a:hover{
         margin: 5px;
     }
 
-  
-
-   
 }
