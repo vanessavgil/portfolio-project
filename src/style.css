@@ -31,6 +31,7 @@ body {
     font-size: 24px;
     
 }
+
 h1, h2, h3, h4, h5, h6 {
     color: #000;
     text-align: center;
@@ -118,6 +119,13 @@ line-height: 27px;
     text-align: center;
     padding: 160px 20px;
 }
+
+.contact-links {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
 @media (max-width: 960px){
     .hero{
         padding: 80px 20px;
